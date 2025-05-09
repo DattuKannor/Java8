@@ -1,0 +1,67 @@
+** Arrays Functions **
+	| Function     | Description                                 |
+	|--------------|---------------------------------------------|
+	| count()      | Counts the number of elements               |
+	| forEach()    | Performs an action for each element         |
+	| sorted()     | Sorts the elements                          |
+	| filter()     | Filters elements by a condition             |
+	| map()        | Transforms each element                     |
+	| toArray()    | Converts stream to array                    |
+	| collect()    | Converts stream to a collection             |
+	| findFirst()  | Returns the first element (optional)        |
+	| findAny()    | Returns any element (optional)              |
+	| anyMatch()   | Checks if any element matches condition     |
+	| allMatch()   | Checks if all elements match condition      |
+	| noneMatch()  | Checks if no elements match condition       |
+	| reduce()     | Reduces elements to a single value          |
+	| min()        | Finds the minimum element                   |
+	| max()        | Finds the maximum element                   |
+	| distinct()   | Removes duplicate elements                  |
+	| limit()      | Limits the number of elements               |
+	| skip()       | Skips the first N elements                  |
+
+
+** List Function **
+	| Function            | Description                                                      |
+	|---------------------|------------------------------------------------------------------|
+	| stream()            | Creates a sequential stream from a collection                   |
+	| parallelStream()    | Creates a parallel stream from a collection                     |
+	| of()                | Creates a stream from specified values                          |
+	| empty()             | Returns an empty stream                                         |
+	| generate()          | Creates an infinite stream using a Supplier                     |
+	| iterate()           | Creates an infinite stream by iteration                         |
+	| filter()            | Filters elements based on a condition                           |
+	| map()               | Transforms elements using a function                            |
+	| mapToInt()          | Maps elements to an IntStream                                   |
+	| mapToLong()         | Maps elements to a LongStream                                   |
+	| mapToDouble()       | Maps elements to a DoubleStream                                 |
+	| flatMap()           | Flattens nested streams into one stream                         |
+	| flatMapToInt()      | Flattens elements into an IntStream                             |
+	| flatMapToLong()     | Flattens elements into a LongStream                             |
+	| flatMapToDouble()   | Flattens elements into a DoubleStream                           |
+	| distinct()          | Removes duplicate elements                                      |
+	| sorted()            | Sorts elements in natural order                                 |
+	| sorted(Comparator)  | Sorts elements using a custom comparator                        |
+	| peek()              | Performs action on each element (mainly for debugging)          |
+	| limit()             | Truncates stream to a given size                                |
+	| skip()              | Skips first N elements                                          |
+	| takeWhile()         | Takes elements while condition is true (Java 9+)                |
+	| dropWhile()         | Drops elements while condition is true (Java 9+)                |
+	| forEach()           | Performs an action for each element                             |
+	| forEachOrdered()    | Performs action preserving encounter order                      |
+	| toArray()           | Converts stream to an array                                     |
+	| reduce()            | Reduces elements to a single value                              |
+	| collect()           | Collects stream elements to a collection or other result        |
+	| min()               | Finds minimum element                                           |
+	| max()               | Finds maximum element                                           |
+	| count()             | Counts number of elements                                       |
+	| anyMatch()          | Returns true if any element matches the condition               |
+	| allMatch()          | Returns true if all elements match the condition                |
+	| noneMatch()         | Returns true if no elements match the condition                 |
+	| findFirst()         | Returns the first element (Optional)                            |
+	| findAny()           | Returns any element (Optional)                                  |
+	| mapToObj()          | Maps primitive stream to object stream                          |
+	| boxed()             | Boxes primitive values to wrapper types                         |
+	| sum()               | Sums elements (primitive streams only)                          |
+	| average()           | Calculates average (primitive streams only)                     |
+
