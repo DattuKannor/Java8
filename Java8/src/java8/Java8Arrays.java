@@ -36,15 +36,14 @@ public class Java8Arrays {
 
 		// Filter
 		list.stream().filter(i -> i % 2 == 0).forEach((i) -> System.out.println("Even Number: " + i));
-		
+
 		// Distinct
-		List <Integer> distinct= list.stream().distinct().collect(Collectors.toList());
+		List<Integer> distinct = list.stream().distinct().collect(Collectors.toList());
 		System.out.println("Distinct List" + distinct);
-		
-		
+
 		// Fetch Second last larger number from list
-		// Comparator interface abstract compare method and  reverseOrder static ,ethod
-		Optional<Integer> secondLarge =  list.stream().distinct().sorted(Comparator.reverseOrder()).skip(1).findFirst();
+		// Comparator interface abstract compare method and reverseOrder static ,ethod
+		Optional<Integer> secondLarge = list.stream().distinct().sorted(Comparator.reverseOrder()).skip(1).findFirst();
 		System.out.println("Second Large: " + secondLarge);
 	}
 
